@@ -16,6 +16,9 @@ The library then prints two different numbers. One is the size of the drift. The
 
 **Mann–Kendall test.** The order. S counts pairs where the later row is higher, minus pairs where the later row is lower. A tie adds nothing. S is a count. It is not a slope and not a probability. For 8 or more rows, a two-sided p-value is the normal approximation with the continuity correction (S − sign(S)) / √var. The variance starts at n(n−1)(2n+5)/18. Each tied group of size t > 1 subtracts t(t−1)(2t+5)/18. That variance is multiplied by the Hamed–Rao factor, so a series that repeats itself is not treated as independent. The factor removes the Theil–Sen slope, ranks what remains, and keeps a lag only when its autocorrelation exceeds 1.95996398454/√n. The autocorrelation uses one mean of the whole rank series and the full sum of squares. Under 8 rows the printed p-value is `short`. The exact small-sample distribution is not computed. A non-positive corrected variance is `dependent`. The p-value is not a certificate.
 
+The default line is `variance=hamed-rao`. That correction is for autocorrelation in one series. It does not stop January from being compared with July. `--seasons 12` is the seasonal Mann-Kendall test: each month is compared only with the same month in later years. Its variance is the sum of the monthly variances, and the slope is z per year. `--covariance` uses the Hirsch-Slack covariance instead. Hamed-Rao is not multiplied on top of either seasonal variance. A short last year makes `--covariance` refuse the table as `uneven`.
+
+
 ## The eight gates
 
 | Library | Kind | Question | You type | It prints |
