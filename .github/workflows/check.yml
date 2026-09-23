@@ -1,0 +1,14 @@
+name: check
+on:
+  push:
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Index names the nine
+        run: |
+          for n in splitrecord feasfront dosepath fitslip pinfault rimkeep baghold tubewalk archhold; do
+            grep -q "$n" README.md
+          done
