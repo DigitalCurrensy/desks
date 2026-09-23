@@ -20,6 +20,8 @@ The default line is `variance=hamed-rao`. That correction is for autocorrelation
 
 `--prewhiten` removes lag-1 only after the Theil-Sen slope is taken off, then puts the slope back. The variance on that line is `ordinary`. It is not Hamed-Rao, and it is not the seasonal test. A flag that asks for two of these corrections is refused.
 
+The worked pre-whitening file is `examples/pw_left.csv` with `examples/pw_right.csv` in splitrecord. Nine equally spaced rows. Sen's slope is the median of the 36 pairwise slopes. The line prints that removed slope and the slope of the blended series as two fields.
+
 
 ## The eight gates
 
