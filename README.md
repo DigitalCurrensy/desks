@@ -20,6 +20,10 @@ The printed Mann-Kendall line also carries Kendall's tau-b, the corrected varian
 
 Sen's 95% interval is two ranks in the sorted pairwise slopes, using the tie-corrected variance with no Hamed-Rao factor. hamed95 is the same rank rule after that variance is multiplied by n/n*.
 
+Under 8 rows with no ties, splitrecord labels the interval sen95=exact. That rank is the exact no-tie Sen interval, not the normal approximation. Sen's seven-point series, times 1, 2, 3, 4, 10, 12, 18 and values 9, 15, 19, 20, 45, 55, 78, has median slope 4 and exact limits 3.714285714 and 4.375. At 8 rows and above the label is sen95=normal.
+
+The other eight lines print the inputs next to the word. A fit line prints value, low, and high. A pin line prints void fraction, slope, and offset. A rim line prints on-rim, slope, setback, and width. A pit line prints mouth, void fraction, drop, and slope. A tube line prints width, length, echo, and clutter. A roof line prints span, roof, tensile, crack, ucs, and lithostatic. A site line says whether the hours were supplied or computed. A walk line prints the dose and the number of edges.
+
 The default line is `variance=hamed-rao`. That correction is for autocorrelation in one series. It does not stop January from being compared with July. `--seasons 12` is the seasonal Mann-Kendall test: each month is compared only with the same month in later years. Its variance is the sum of the monthly variances, and the slope is z per year. `--covariance` uses the Hirsch-Slack covariance instead. Hamed-Rao is not multiplied on top of either seasonal variance. A short last year makes `--covariance` refuse the table as `uneven`.
 
 `--prewhiten` removes lag-1 only after the Theil-Sen slope is taken off, then puts the slope back. The variance on that line is `ordinary`. It is not Hamed-Rao, and it is not the seasonal test. A flag that asks for two of these corrections is refused.
