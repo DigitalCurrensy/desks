@@ -18,6 +18,8 @@ The library then prints two different numbers. One is the size of the drift. The
 
 The default line is `variance=hamed-rao`. That correction is for autocorrelation in one series. It does not stop January from being compared with July. `--seasons 12` is the seasonal Mann-Kendall test: each month is compared only with the same month in later years. Its variance is the sum of the monthly variances, and the slope is z per year. `--covariance` uses the Hirsch-Slack covariance instead. Hamed-Rao is not multiplied on top of either seasonal variance. A short last year makes `--covariance` refuse the table as `uneven`.
 
+`--prewhiten` removes lag-1 only after the Theil-Sen slope is taken off, then puts the slope back. The variance on that line is `ordinary`. It is not Hamed-Rao, and it is not the seasonal test. A flag that asks for two of these corrections is refused.
+
 
 ## The eight gates
 
