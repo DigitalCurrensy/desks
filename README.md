@@ -2,23 +2,23 @@
 
 [![check](https://github.com/DigitalCurrensy/desks/actions/workflows/check.yml/badge.svg)](https://github.com/DigitalCurrensy/desks/actions/workflows/check.yml)
 
-Start here. This repository is the index. It does not compute.
+## Site gates
 
-Nine libraries. One compares two aligned records. Eight score a lunar site. Each one prints a decision and is allowed to refuse it. You bring the measurements. Nothing is downloaded and nothing is hosted.
+Nine Apache-2.0 libraries. [desks](https://github.com/DigitalCurrensy/desks) is the index. It does not compute.
 
-| Library | Who it is for | What it decides |
-| --- | --- | --- |
-| [splitrecord](https://github.com/DigitalCurrensy/splitrecord) | A hydrologist with two aligned records | Residual, Theil–Sen slope, Mann–Kendall. WaterML 2.0 and TimeseriesML 1.0 measurement pairs only |
-| [feasfront](https://github.com/DigitalCurrensy/feasfront) | A site planner | Sun, Earth, night, then your slope limit |
-| [dosepath](https://github.com/DigitalCurrensy/dosepath) | A traverse planner | Lowest-dose walk, or stay |
-| [fitslip](https://github.com/DigitalCurrensy/fitslip) | A mechanical check | Inside the limit, or not. It does not touch the part |
-| [pinfault](https://github.com/DigitalCurrensy/pinfault) | A landing-site check | Void fraction, slope, lunar offset |
-| [rimkeep](https://github.com/DigitalCurrensy/rimkeep) | A rim check | Haversine width and grade |
-| [baghold](https://github.com/DigitalCurrensy/baghold) | A pit or skylight check | Mouth, drop, grade, voids |
-| [tubewalk](https://github.com/DigitalCurrensy/tubewalk) | A lidar technician | Ground, diameter, LAS 1.4 formats 0–10, and a LAZ chunk table |
-| [archhold](https://github.com/DigitalCurrensy/archhold) | A roof check | The load factor a small mesh can carry |
+One compares two aligned records. Eight score a lunar site. Each prints a decision and is allowed to refuse it. You bring the measurements. Nothing is downloaded and nothing is hosted. There is no second license for these files.
 
-Each library is Apache-2.0. You can use it, change it, and ship it. There is no second, paid license for these same files.
+| Library | Decision |
+| --- | --- |
+| [splitrecord](https://github.com/DigitalCurrensy/splitrecord) | Residual, Theil–Sen slope, Mann–Kendall. One WaterML 2.0 or TimeseriesML 1.0 measurement series. S is a count, not a p-value. |
+| [feasfront](https://github.com/DigitalCurrensy/feasfront) | Sun, Earth, and night hours, then the slope limit you set. No terrain. |
+| [dosepath](https://github.com/DigitalCurrensy/dosepath) | Lowest-dose walk, or stay. Not a radiation model. |
+| [fitslip](https://github.com/DigitalCurrensy/fitslip) | Inside the limit, or not. It does not touch the part. |
+| [pinfault](https://github.com/DigitalCurrensy/pinfault) | Void fraction, slope, lunar offset. Ok is not a clearance to land. |
+| [rimkeep](https://github.com/DigitalCurrensy/rimkeep) | Haversine width and grade. Radius 1,737,400 m. Ok is not a road. |
+| [baghold](https://github.com/DigitalCurrensy/baghold) | Mouth, drop, grade, voids. A skylight is not a shelter. |
+| [tubewalk](https://github.com/DigitalCurrensy/tubewalk) | Ground, diameter, LAS 1.2 formats 0–3 and LAS 1.4 formats 0–10. Points inside a .laz file are not decoded. |
+| [archhold](https://github.com/DigitalCurrensy/archhold) | Load factor of a small roof mesh. Not ABAQUS and not UDEC. |
 
 
 ## The trend test
@@ -85,4 +85,4 @@ Apache-2.0. Copyright 2026 Digital Currensy Inc. `LICENSE` is the unmodified Apa
 
 ## Visibility
 
-These repositories are private. This index does not change that.
+These repositories are public. This index does not host a service.
