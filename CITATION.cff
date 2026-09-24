@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: If you use this library, cite the repository.
+title: desks
+abstract: Index of nine Apache-2.0 libraries. One trend test and eight lunar site gates. This repository does not compute.
+authors:
+  - name: Digital Currensy Inc.
+license: Apache-2.0
+repository-code: https://github.com/DigitalCurrensy/desks
