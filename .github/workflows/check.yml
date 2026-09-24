@@ -2,11 +2,15 @@ name: check
 on:
   push:
   pull_request:
+  schedule:
+    - cron: "35 15 * * *"
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Refuse a private key or a token
+        run: bash .githooks/pre-commit --ci
       - name: Index names the nine
         run: |
           for n in splitrecord feasfront dosepath fitslip pinfault rimkeep baghold tubewalk archhold; do
