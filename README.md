@@ -8,7 +8,7 @@ Nine libraries. One compares two aligned records. Eight score a lunar site. Each
 
 | Library | Who it is for | What it decides |
 | --- | --- | --- |
-| [splitrecord](https://github.com/DigitalCurrensy/splitrecord) | A hydrologist with two aligned records | Residual, Theil–Sen slope, Mann–Kendall. WaterML 2.0 measurement pairs only |
+| [splitrecord](https://github.com/DigitalCurrensy/splitrecord) | A hydrologist with two aligned records | Residual, Theil–Sen slope, Mann–Kendall. WaterML 2.0 and TimeseriesML 1.0 measurement pairs only |
 | [feasfront](https://github.com/DigitalCurrensy/feasfront) | A site planner | Sun, Earth, night, then your slope limit |
 | [dosepath](https://github.com/DigitalCurrensy/dosepath) | A traverse planner | Lowest-dose walk, or stay |
 | [fitslip](https://github.com/DigitalCurrensy/fitslip) | A mechanical check | Inside the limit, or not. It does not touch the part |
