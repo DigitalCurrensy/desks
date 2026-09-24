@@ -1,10 +1,25 @@
 # Desks
 
-Two kinds of library. One trend test. Eight lunar site gates. Digital Currensy Inc. owns them.
+[![check](https://github.com/DigitalCurrensy/desks/actions/workflows/check.yml/badge.svg)](https://github.com/DigitalCurrensy/desks/actions/workflows/check.yml)
 
-These repositories are Apache-2.0. Publishing them is not an exclusive sale of the same files. Do not offer both.
+Start here. This repository is the index. It does not compute.
 
-fitslip, pinfault, rimkeep, and baghold can now compute one figure each: a clearance, a grade and a lunar offset, a haversine width, and a mouth from two ends. The sample comparisons are still in the other CSV. splitrecord's 24-row seasonal example is synthetic. It is not a gauged basin.
+Nine libraries. One compares two aligned records. Eight score a lunar site. Each one prints a decision and is allowed to refuse it. You bring the measurements. Nothing is downloaded and nothing is hosted.
+
+| Library | Who it is for | What it decides |
+| --- | --- | --- |
+| [splitrecord](https://github.com/DigitalCurrensy/splitrecord) | A hydrologist with two aligned records | Residual, Theil–Sen slope, Mann–Kendall |
+| [feasfront](https://github.com/DigitalCurrensy/feasfront) | A site planner | Sun, Earth, night, then your slope limit |
+| [dosepath](https://github.com/DigitalCurrensy/dosepath) | A traverse planner | Lowest-dose walk, or stay |
+| [fitslip](https://github.com/DigitalCurrensy/fitslip) | A mechanical check | Inside the limit, or not. It does not touch the part |
+| [pinfault](https://github.com/DigitalCurrensy/pinfault) | A landing-site check | Void fraction, slope, lunar offset |
+| [rimkeep](https://github.com/DigitalCurrensy/rimkeep) | A rim check | Haversine width and grade |
+| [baghold](https://github.com/DigitalCurrensy/baghold) | A pit or skylight check | Mouth, drop, grade, voids |
+| [tubewalk](https://github.com/DigitalCurrensy/tubewalk) | A lidar technician | Ground, diameter, LAS, and a LAZ chunk table |
+| [archhold](https://github.com/DigitalCurrensy/archhold) | A roof check | The load factor a small mesh can carry |
+
+Each library is Apache-2.0. You can use it, change it, and ship it. There is no second, paid license for these same files.
+
 
 ## The trend test
 
