@@ -1,5 +1,9 @@
 Private demo. One command, then the refusal. Do not call a pass a survey.
 
+fitslip examples/readings.csv
+washer pass value=5 low=0 high=10 clearance=5 n=3 median=5
+The value is the median of the readings. It is not a caliper. A pass is not a measurement.
+
 fitslip examples/pass.csv
 washer pass value=5 low=0 high=10 clearance=5
 A pass is not a measurement. The part size is still yours.
