@@ -2,7 +2,9 @@
 
 Two kinds of library. One trend test. Eight lunar site gates. Digital Currensy Inc. owns them.
 
-fitslip, pinfault, rimkeep, and baghold compare numbers you type. splitrecord, feasfront, dosepath, tubewalk, and archhold compute the figure the line names. None of them downloads a satellite, a map, or a mesh.
+These repositories are Apache-2.0. Publishing them is not an exclusive sale of the same files. Do not offer both.
+
+fitslip, pinfault, rimkeep, and baghold can now compute one figure each: a clearance, a grade and a lunar offset, a haversine width, and a mouth from two ends. The sample comparisons are still in the other CSV. splitrecord's 24-row seasonal example is synthetic. It is not a gauged basin.
 
 ## The trend test
 

@@ -1,0 +1,29 @@
+Private demo. One command, then the refusal. Do not call a pass a survey.
+
+fitslip examples/pass.csv
+washer pass value=5 low=0 high=10 clearance=5
+A pass is not a measurement. The part size is still yours.
+
+pinfault examples/derived.csv
+pair ok void=0.02 slope=5.710593137 offset=15.16167521
+Ok is not a landing.
+
+rimkeep examples/span.csv
+ok on_rim=false slope=1.888809177 setback=80 width=303.2335042
+Ok is not a road.
+
+baghold examples/ends.csv
+ok mouth=40 void=0.02 drop=10 slope=14.03624347
+Ok is not a shelter.
+
+splitrecord examples/season_left.csv examples/season_right.csv --seasons 12
+rows=24 residual=z(A)-z(B) seasons=12 theil_sen_z_per_year=1.422429001 seasonal_S=12 var=12 z=3.175426481 variance=seasonal p=0.00149616
+Synthetic. Not a gauged basin. Not a certificate.
+
+archhold verify
+verified digest
+The signature is of those bytes. It is not a stamp. Full burial stops at 5.911552654.
+
+tubewalk cloth examples/ground.csv
+ground=8 other=1 class2=8 class1=0 class7=0 class18=1 resolution=1 threshold=0.5 cut=file
+Class 18 is the spike. cut=file is this threshold, not an ASPRS height. This coder does not open a .laz file.
