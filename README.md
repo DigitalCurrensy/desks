@@ -1,10 +1,12 @@
 # Desks
 
+For someone scoring a place on the Moon from measurements they already have.
+
+Eight checks can each say no: sunlight, a walk, the parts, a landing pin, a rim road, a pit, a tunnel, a roof. A ninth compares two lists of numbers and can refuse a list with no spread. You run the code on your own machine. Nothing is downloaded and nothing is hosted.
+
+This repository is the index. It does not compute. Apache-2.0. There is no second license for these files.
+
 [![check](https://github.com/DigitalCurrensy/desks/actions/workflows/check.yml/badge.svg)](https://github.com/DigitalCurrensy/desks/actions/workflows/check.yml)
-
-Nine Apache-2.0 libraries. This repository is the index. It does not compute.
-
-One compares two aligned records. Eight score a lunar site. Each prints a decision and is allowed to refuse it. You bring the measurements. Nothing is downloaded and nothing is hosted. There is no second license for these files.
 
 ## The trend test
 
